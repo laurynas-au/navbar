@@ -1,0 +1,16 @@
+@import '../../styles/index.scss';
+
+.navbar {
+  background-color: $color-background;
+  border-bottom: $border;
+  height: $nav-size;
+  padding: 0 2rem;
+  
+
+  &__nav {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+}

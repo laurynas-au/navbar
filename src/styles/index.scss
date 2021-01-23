@@ -1,0 +1,47 @@
+// VARIABLES
+
+// color
+
+$color-background: #242526;
+$color-accent: #484a4d;
+$color-text: #dadce1;
+$color-black: #090909;
+
+// sizing
+
+$nav-size: 8rem;
+
+// common values
+
+$border: 0.1rem solid #474a4d;
+$border-radius: 0.8rem;
+
+// resets
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-black;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-text;
+}
